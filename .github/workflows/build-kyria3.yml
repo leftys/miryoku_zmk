@@ -1,0 +1,16 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Kyria3 nice_nano_v2 nice_view'
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["kyria_rev3_left nice_view_adapter nice_view","kyria_rev3_right nice_view_adapter nice_view"]'
+      
