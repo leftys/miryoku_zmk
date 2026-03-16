@@ -3,8 +3,8 @@
 
 name: 'kyria_rev3 nice_nano nice_view'
 on:
-  push:
-    branches: [ master ]
+  # push:
+  #   branches: [ master ]
   workflow_dispatch:
 jobs:
   build:
