@@ -14,4 +14,4 @@ jobs:
       board: '["seeeduino_xiao"]'
       shield: '["totem_left","totem_right"]'
       branches: '["zmkfirmware/zmk/v0.3"]'
-      kconfig: '["CONFIG_ZMK_POINTING=y","CONFIG_ZMK_STUDIO=y"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'
