@@ -348,9 +348,9 @@ U_NA,              &kp RALT,          &u_to_U_NAV,       &u_to_U_NUM,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp MINUS,         &kp N0,            &kp DOT,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-&kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          &kp LC(F1),        &kp LC(F2),        &kp LC(F3),        &kp LC(F4),        U_NA,              \
+&kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &kp LC(F1),        &kp LC(F2),        &kp LC(F3),        &kp LC(F4),        \
 &kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          &kp LA(F5),        &kp LA(F6),        &kp LA(F7),        &kp LA(F8),        U_NA,              \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &kp LA(F5),        &kp LA(F6),        &kp LA(F7),        &kp LA(F8),        \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
