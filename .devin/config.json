@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "read",
+      "grep",
+      "glob",
+      "edit",
+      "write",
+      "exec",
+      "Read(**)",
+      "Write(**)",
+      "Exec(*)"
+    ],
+    "deny": [
+      "Exec(rm -rf)",
+      "Exec(sudo)",
+      "Write(.env*)"
+    ]
+  }
+}
